@@ -57,6 +57,9 @@ h2 a {
 .weekSelector button {
   cursor: pointer;
 }
+.weekSelector button:hover {
+  opacity: 0.7;
+}
 .weekSelector button:focus {
   outline: 0;
 }
