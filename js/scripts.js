@@ -502,7 +502,9 @@ function draw(err, data) {
         .attr('height', d => m.innerHeight() - y0(d[typesOfminutes[i]]) )
         .attr('x', d => x1(d.minutes[i].name) )
         .attr('y', d => y0(d[typesOfminutes[i]]) )
-        .attr('fill', d => color(d.minutes[i].name) );
+        .attr('fill', d => color(d.minutes[i].name) )
+        .append('svg:title')
+          .text(d => d.minutes[i].value);
     }
 
 
