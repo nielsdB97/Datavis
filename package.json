@@ -1,0 +1,25 @@
+{
+  "name": "datavis",
+  "version": "1.0.0",
+  "description": "Eindopdracht voor datavisualisatie in het derde jaar CMD",
+  "license": "MIT",
+  "keywords": [
+    "datavisualisation",
+    "data",
+    "d3",
+    "d3js"
+  ],
+  "repository": "https://github.com/nielsdB97/datavis",
+  "bugs": "https://github.com/nielsdB97/datavis/issues",
+  "homepage": "https://github.com/nielsdB97/datavis#readme",
+  "author": "Niels de Bruin <niels@nielsdB97.nl>",
+  "devDependencies": {
+    "budo": "^9.0.0",
+    "hastscript": "^3.0.1",
+    "rehype": "^3.0.0",
+    "rehype-document": "^1.0.0"
+  },
+  "scripts": {
+    "start": "budo --live"
+  }
+}
