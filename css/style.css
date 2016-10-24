@@ -134,6 +134,9 @@ g.resize {
 .perm {
   opacity: 0.2;
 }
+.day rect.perm {
+  cursor: not-allowed;
+}
 
 section.weekSelector {
   display: flex;
