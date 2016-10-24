@@ -1,10 +1,6 @@
 {
 // Anonimize by adding a block scope
 
-/* TODO
-  Animaties toevoegen
-*/
-
 'use strict';
 
 /*
