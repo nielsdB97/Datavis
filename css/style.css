@@ -112,6 +112,9 @@ g.resize {
   display: none;
 }
 
+.day rect {
+  cursor: pointer;
+}
 
 .line {
   fill: none;
